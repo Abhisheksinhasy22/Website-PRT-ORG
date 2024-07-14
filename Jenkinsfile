@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    def dockerImage = docker.build("your-dockerhub-username/website-prt-org")
+                    def dockerImage = docker.build("Abhishek1296/website-prt-org")
                 }
             }
         }
